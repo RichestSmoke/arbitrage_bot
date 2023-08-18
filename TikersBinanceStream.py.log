@@ -1,0 +1,135 @@
+2023-08-17 19:57:17,764 [INFO    ] 4612 4363900416 manager: New instance of unicorn-binance-websocket-api_1.46.1-python_3.10.5 on Darwin 21.6.0 for exchange binance.com started ...
+2023-08-17 19:57:17,764 [INFO    ] 4612 4363900416 manager: Debug is False
+2023-08-17 19:57:17,764 [INFO    ] 4612 4363900416 manager: Initiating `colorama_0.4.6`
+2023-08-17 19:57:17,764 [INFO    ] 4612 4363900416 manager: Using `websockets_10.4`
+2023-08-17 19:57:17,764 [INFO    ] 4612 4363900416 manager: Using `stream_buffer`
+2023-08-17 19:57:17,764 [INFO    ] 4612 4363900416 manager: Using `stream_signal_buffer`
+2023-08-17 19:57:17,764 [INFO    ] 4612 4363900416 manager: Using exchange_type 'cex' ...
+2023-08-17 19:57:17,764 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() new instance created with frequent_checks_id=1692291437.76485
+2023-08-17 19:57:17,765 [INFO    ] 4612 123145527095296 manager: BinanceWebSocketApiManager._keepalive_streams() new instance created with keepalive_streams_id=1692291437.765365
+2023-08-17 19:57:17,966 [INFO    ] 4612 4363900416 manager: BinanceWebSocketApiManager.create_stream(['arr'], ['!miniTicker'], None, False, False, False, False) with stream_id=6406ed06e29a-acdd-8035-86fa-7b9e44ff
+2023-08-17 19:57:17,966 [INFO    ] 4612 4363900416 manager: BinanceWebSocketApiManager._add_stream_to_stream_list(6406ed06e29a-acdd-8035-86fa-7b9e44ff, ['arr'], ['!miniTicker'], None, False, None, False)
+2023-08-17 19:57:17,967 [INFO    ] 4612 123145543884800 sockets: BinanceWebSocketApiSocket.start_socket(6406ed06e29a-acdd-8035-86fa-7b9e44ff, ['arr'], ['!miniTicker']) socket_id=8b1d0b8e-25cc-4fbe-bf9a-838b4362437f recent_socket_id=8b1d0b8e-25cc-4fbe-bf9a-838b4362437f
+2023-08-17 19:57:17,967 [INFO    ] 4612 123145543884800 connection: BinanceWebSocketApiConnection.await._conn.__aenter__("6406ed06e29a-acdd-8035-86fa-7b9e44ff, ['arr'], ['!miniTicker']") - No proxy used!
+2023-08-17 19:57:20,195 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 4.45 kB/s at 2023-08-17, 16:57:20 UTC
+2023-08-17 19:57:21,105 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 6.47 kB/s at 2023-08-17, 16:57:21 UTC
+2023-08-17 19:57:21,309 [INFO    ] 4612 123145577463808 _websocket_stream: WebSocket Unified V5 attempting connection...
+2023-08-17 19:57:22,040 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 6.93 kB/s at 2023-08-17, 16:57:22 UTC
+2023-08-17 19:57:22,319 [INFO    ] 4612 123145560674304 _logging: Websocket connected
+2023-08-17 19:57:22,319 [INFO    ] 4612 123145577463808 _websocket_stream: WebSocket Unified V5 connected
+2023-08-17 19:57:28,122 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 8.96 kB/s at 2023-08-17, 16:57:28 UTC
+2023-08-17 19:57:36,290 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 10.3 kB/s at 2023-08-17, 16:57:36 UTC
+2023-08-17 19:57:38,103 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 17.85 kB/s at 2023-08-17, 16:57:38 UTC
+2023-08-17 19:58:02,000 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 19.57 kB/s at 2023-08-17, 16:58:02 UTC
+2023-08-17 20:01:56,298 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 19.65 kB/s at 2023-08-17, 17:01:56 UTC
+2023-08-17 20:02:01,143 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 20.38 kB/s at 2023-08-17, 17:02:01 UTC
+2023-08-17 20:02:30,179 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 23.64 kB/s at 2023-08-17, 17:02:30 UTC
+2023-08-17 20:02:32,296 [INFO    ] 4612 123145510305792 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 26.18 kB/s at 2023-08-17, 17:02:32 UTC
+2023-08-17 20:12:07,007 [INFO    ] 4747 4664260096 manager: New instance of unicorn-binance-websocket-api_1.46.1-python_3.10.5 on Darwin 21.6.0 for exchange binance.com started ...
+2023-08-17 20:12:07,007 [INFO    ] 4747 4664260096 manager: Debug is False
+2023-08-17 20:12:07,007 [INFO    ] 4747 4664260096 manager: Initiating `colorama_0.4.6`
+2023-08-17 20:12:07,007 [INFO    ] 4747 4664260096 manager: Using `websockets_10.4`
+2023-08-17 20:12:07,007 [INFO    ] 4747 4664260096 manager: Using `stream_buffer`
+2023-08-17 20:12:07,008 [INFO    ] 4747 4664260096 manager: Using `stream_signal_buffer`
+2023-08-17 20:12:07,008 [INFO    ] 4747 4664260096 manager: Using exchange_type 'cex' ...
+2023-08-17 20:12:07,008 [INFO    ] 4747 123145481732096 manager: BinanceWebSocketApiManager._frequent_checks() new instance created with frequent_checks_id=1692292327.008338
+2023-08-17 20:12:07,008 [INFO    ] 4747 123145498521600 manager: BinanceWebSocketApiManager._keepalive_streams() new instance created with keepalive_streams_id=1692292327.0085042
+2023-08-17 20:12:07,313 [INFO    ] 4747 4664260096 manager: BinanceWebSocketApiManager.create_stream(['arr'], ['!miniTicker'], None, False, False, False, False) with stream_id=c5b0e6e4e84d-ffba-7742-b99a-e236e209
+2023-08-17 20:12:07,313 [INFO    ] 4747 4664260096 manager: BinanceWebSocketApiManager._add_stream_to_stream_list(c5b0e6e4e84d-ffba-7742-b99a-e236e209, ['arr'], ['!miniTicker'], None, False, None, False)
+2023-08-17 20:12:07,314 [INFO    ] 4747 123145515311104 sockets: BinanceWebSocketApiSocket.start_socket(c5b0e6e4e84d-ffba-7742-b99a-e236e209, ['arr'], ['!miniTicker']) socket_id=c656f96c-283c-4192-a60b-f3a8d38b02f5 recent_socket_id=c656f96c-283c-4192-a60b-f3a8d38b02f5
+2023-08-17 20:12:07,314 [INFO    ] 4747 123145515311104 connection: BinanceWebSocketApiConnection.await._conn.__aenter__("c5b0e6e4e84d-ffba-7742-b99a-e236e209, ['arr'], ['!miniTicker']") - No proxy used!
+2023-08-17 20:12:10,050 [INFO    ] 4747 123145481732096 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 8.6 kB/s at 2023-08-17, 17:12:10 UTC
+2023-08-17 20:12:10,183 [INFO    ] 4747 123145548890112 _websocket_stream: WebSocket Unified V5 attempting connection...
+2023-08-17 20:12:11,351 [INFO    ] 4747 123145733574656 _logging: Websocket connected
+2023-08-17 20:12:11,351 [INFO    ] 4747 123145548890112 _websocket_stream: WebSocket Unified V5 connected
+2023-08-17 20:12:14,010 [INFO    ] 4747 123145481732096 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 11.16 kB/s at 2023-08-17, 17:12:14 UTC
+2023-08-17 20:12:15,222 [INFO    ] 4747 123145481732096 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 11.47 kB/s at 2023-08-17, 17:12:15 UTC
+2023-08-17 20:12:19,152 [INFO    ] 4747 123145481732096 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 12.15 kB/s at 2023-08-17, 17:12:19 UTC
+2023-08-17 20:12:29,120 [INFO    ] 4747 123145481732096 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 13.83 kB/s at 2023-08-17, 17:12:29 UTC
+2023-08-17 20:12:50,915 [INFO    ] 4768 4383655424 manager: New instance of unicorn-binance-websocket-api_1.46.1-python_3.10.5 on Darwin 21.6.0 for exchange binance.com started ...
+2023-08-17 20:12:50,915 [INFO    ] 4768 4383655424 manager: Debug is False
+2023-08-17 20:12:50,915 [INFO    ] 4768 4383655424 manager: Initiating `colorama_0.4.6`
+2023-08-17 20:12:50,915 [INFO    ] 4768 4383655424 manager: Using `websockets_10.4`
+2023-08-17 20:12:50,915 [INFO    ] 4768 4383655424 manager: Using `stream_buffer`
+2023-08-17 20:12:50,915 [INFO    ] 4768 4383655424 manager: Using `stream_signal_buffer`
+2023-08-17 20:12:50,915 [INFO    ] 4768 4383655424 manager: Using exchange_type 'cex' ...
+2023-08-17 20:12:50,916 [INFO    ] 4768 123145597964288 manager: BinanceWebSocketApiManager._frequent_checks() new instance created with frequent_checks_id=1692292370.9165509
+2023-08-17 20:12:50,916 [INFO    ] 4768 123145614753792 manager: BinanceWebSocketApiManager._keepalive_streams() new instance created with keepalive_streams_id=1692292370.9169521
+2023-08-17 20:12:51,317 [INFO    ] 4768 4383655424 manager: BinanceWebSocketApiManager.create_stream(['arr'], ['!miniTicker'], None, False, False, False, False) with stream_id=6ebb6878581d-3598-3594-f12b-d181305b
+2023-08-17 20:12:51,317 [INFO    ] 4768 4383655424 manager: BinanceWebSocketApiManager._add_stream_to_stream_list(6ebb6878581d-3598-3594-f12b-d181305b, ['arr'], ['!miniTicker'], None, False, None, False)
+2023-08-17 20:12:51,318 [INFO    ] 4768 123145631543296 sockets: BinanceWebSocketApiSocket.start_socket(6ebb6878581d-3598-3594-f12b-d181305b, ['arr'], ['!miniTicker']) socket_id=1b6adad8-d24b-432f-88ec-50561637fadd recent_socket_id=1b6adad8-d24b-432f-88ec-50561637fadd
+2023-08-17 20:12:51,319 [INFO    ] 4768 123145631543296 connection: BinanceWebSocketApiConnection.await._conn.__aenter__("6ebb6878581d-3598-3594-f12b-d181305b, ['arr'], ['!miniTicker']") - No proxy used!
+2023-08-17 20:12:54,241 [INFO    ] 4768 123145597964288 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 5.42 kB/s at 2023-08-17, 17:12:54 UTC
+2023-08-17 20:12:55,152 [INFO    ] 4768 123145597964288 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 7.41 kB/s at 2023-08-17, 17:12:55 UTC
+2023-08-17 20:12:58,184 [INFO    ] 4768 123145597964288 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 12.37 kB/s at 2023-08-17, 17:12:58 UTC
+2023-08-17 20:13:29,088 [INFO    ] 4768 123145597964288 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 15.42 kB/s at 2023-08-17, 17:13:29 UTC
+2023-08-17 20:13:38,157 [INFO    ] 4768 123145597964288 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 24.43 kB/s at 2023-08-17, 17:13:38 UTC
+2023-08-17 20:17:42,004 [INFO    ] 4942 4521195008 manager: New instance of unicorn-binance-websocket-api_1.46.1-python_3.10.5 on Darwin 21.6.0 for exchange binance.com started ...
+2023-08-17 20:17:42,004 [INFO    ] 4942 4521195008 manager: Debug is False
+2023-08-17 20:17:42,004 [INFO    ] 4942 4521195008 manager: Initiating `colorama_0.4.6`
+2023-08-17 20:17:42,005 [INFO    ] 4942 4521195008 manager: Using `websockets_10.4`
+2023-08-17 20:17:42,005 [INFO    ] 4942 4521195008 manager: Using `stream_buffer`
+2023-08-17 20:17:42,005 [INFO    ] 4942 4521195008 manager: Using `stream_signal_buffer`
+2023-08-17 20:17:42,005 [INFO    ] 4942 4521195008 manager: Using exchange_type 'cex' ...
+2023-08-17 20:17:42,005 [INFO    ] 4942 123145407967232 manager: BinanceWebSocketApiManager._frequent_checks() new instance created with frequent_checks_id=1692292662.005813
+2023-08-17 20:17:42,006 [INFO    ] 4942 123145424756736 manager: BinanceWebSocketApiManager._keepalive_streams() new instance created with keepalive_streams_id=1692292662.006214
+2023-08-17 20:17:42,156 [INFO    ] 4942 4521195008 manager: BinanceWebSocketApiManager.create_stream(['arr'], ['!miniTicker'], None, False, False, False, False) with stream_id=ff52c69843fb-35a8-442a-8e86-de8f6739
+2023-08-17 20:17:42,156 [INFO    ] 4942 4521195008 manager: BinanceWebSocketApiManager._add_stream_to_stream_list(ff52c69843fb-35a8-442a-8e86-de8f6739, ['arr'], ['!miniTicker'], None, False, None, False)
+2023-08-17 20:17:42,157 [INFO    ] 4942 123145441546240 sockets: BinanceWebSocketApiSocket.start_socket(ff52c69843fb-35a8-442a-8e86-de8f6739, ['arr'], ['!miniTicker']) socket_id=6263f6fe-f5a6-4af7-91c7-6a03f662cf3c recent_socket_id=6263f6fe-f5a6-4af7-91c7-6a03f662cf3c
+2023-08-17 20:17:42,157 [INFO    ] 4942 123145441546240 connection: BinanceWebSocketApiConnection.await._conn.__aenter__("ff52c69843fb-35a8-442a-8e86-de8f6739, ['arr'], ['!miniTicker']") - No proxy used!
+2023-08-17 20:17:44,478 [INFO    ] 4942 123145475125248 _websocket_stream: WebSocket Unified V5 attempting connection...
+2023-08-17 20:17:45,043 [INFO    ] 4942 123145407967232 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 6.25 kB/s at 2023-08-17, 17:17:45 UTC
+2023-08-17 20:17:45,191 [INFO    ] 4942 123145491914752 _logging: Websocket connected
+2023-08-17 20:17:45,191 [INFO    ] 4942 123145475125248 _websocket_stream: WebSocket Unified V5 connected
+2023-08-17 20:17:47,201 [INFO    ] 4942 123145407967232 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 6.28 kB/s at 2023-08-17, 17:17:47 UTC
+2023-08-17 20:17:49,014 [INFO    ] 4942 123145407967232 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 7.96 kB/s at 2023-08-17, 17:17:49 UTC
+2023-08-17 20:17:55,058 [INFO    ] 4942 123145407967232 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 15.01 kB/s at 2023-08-17, 17:17:55 UTC
+2023-08-17 20:18:46,144 [INFO    ] 4942 123145407967232 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 26.36 kB/s at 2023-08-17, 17:18:46 UTC
+2023-08-17 20:22:12,451 [INFO    ] 4994 4739819008 manager: New instance of unicorn-binance-websocket-api_1.46.1-python_3.10.5 on Darwin 21.6.0 for exchange binance.com started ...
+2023-08-17 20:22:12,451 [INFO    ] 4994 4739819008 manager: Debug is False
+2023-08-17 20:22:12,451 [INFO    ] 4994 4739819008 manager: Initiating `colorama_0.4.6`
+2023-08-17 20:22:12,451 [INFO    ] 4994 4739819008 manager: Using `websockets_10.4`
+2023-08-17 20:22:12,451 [INFO    ] 4994 4739819008 manager: Using `stream_buffer`
+2023-08-17 20:22:12,451 [INFO    ] 4994 4739819008 manager: Using `stream_signal_buffer`
+2023-08-17 20:22:12,451 [INFO    ] 4994 4739819008 manager: Using exchange_type 'cex' ...
+2023-08-17 20:22:12,452 [INFO    ] 4994 123145527279616 manager: BinanceWebSocketApiManager._frequent_checks() new instance created with frequent_checks_id=1692292932.452489
+2023-08-17 20:22:12,452 [INFO    ] 4994 123145544069120 manager: BinanceWebSocketApiManager._keepalive_streams() new instance created with keepalive_streams_id=1692292932.452839
+2023-08-17 20:22:12,610 [INFO    ] 4994 4739819008 manager: BinanceWebSocketApiManager.create_stream(['arr'], ['!miniTicker'], None, False, False, False, False) with stream_id=0a3e1c261853-2410-9871-b6eb-34eba9a6
+2023-08-17 20:22:12,610 [INFO    ] 4994 4739819008 manager: BinanceWebSocketApiManager._add_stream_to_stream_list(0a3e1c261853-2410-9871-b6eb-34eba9a6, ['arr'], ['!miniTicker'], None, False, None, False)
+2023-08-17 20:22:12,611 [INFO    ] 4994 123145560858624 sockets: BinanceWebSocketApiSocket.start_socket(0a3e1c261853-2410-9871-b6eb-34eba9a6, ['arr'], ['!miniTicker']) socket_id=4be6fee1-ca96-43fc-8a2f-5f9a21f65888 recent_socket_id=4be6fee1-ca96-43fc-8a2f-5f9a21f65888
+2023-08-17 20:22:12,611 [INFO    ] 4994 123145560858624 connection: BinanceWebSocketApiConnection.await._conn.__aenter__("0a3e1c261853-2410-9871-b6eb-34eba9a6, ['arr'], ['!miniTicker']") - No proxy used!
+2023-08-17 20:22:15,182 [INFO    ] 4994 123145527279616 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 5.76 kB/s at 2023-08-17, 17:22:15 UTC
+2023-08-17 20:22:15,699 [INFO    ] 4994 123145594437632 _websocket_stream: WebSocket Unified V5 attempting connection...
+2023-08-17 20:22:16,138 [INFO    ] 4994 123145527279616 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 6.47 kB/s at 2023-08-17, 17:22:16 UTC
+2023-08-17 20:22:16,487 [INFO    ] 4994 123146685755392 _logging: Websocket connected
+2023-08-17 20:22:16,487 [INFO    ] 4994 123145594437632 _websocket_stream: WebSocket Unified V5 connected
+2023-08-17 20:22:19,188 [INFO    ] 4994 123145527279616 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 7.29 kB/s at 2023-08-17, 17:22:19 UTC
+2023-08-17 20:22:29,195 [INFO    ] 4994 123145527279616 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 7.44 kB/s at 2023-08-17, 17:22:29 UTC
+2023-08-17 20:22:43,244 [INFO    ] 5023 4403947008 manager: New instance of unicorn-binance-websocket-api_1.46.1-python_3.10.5 on Darwin 21.6.0 for exchange binance.com started ...
+2023-08-17 20:22:43,244 [INFO    ] 5023 4403947008 manager: Debug is False
+2023-08-17 20:22:43,244 [INFO    ] 5023 4403947008 manager: Initiating `colorama_0.4.6`
+2023-08-17 20:22:43,245 [INFO    ] 5023 4403947008 manager: Using `websockets_10.4`
+2023-08-17 20:22:43,245 [INFO    ] 5023 4403947008 manager: Using `stream_buffer`
+2023-08-17 20:22:43,245 [INFO    ] 5023 4403947008 manager: Using `stream_signal_buffer`
+2023-08-17 20:22:43,245 [INFO    ] 5023 4403947008 manager: Using exchange_type 'cex' ...
+2023-08-17 20:22:43,245 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() new instance created with frequent_checks_id=1692292963.245779
+2023-08-17 20:22:43,246 [INFO    ] 5023 123145576710144 manager: BinanceWebSocketApiManager._keepalive_streams() new instance created with keepalive_streams_id=1692292963.246475
+2023-08-17 20:22:43,402 [INFO    ] 5023 4403947008 manager: BinanceWebSocketApiManager.create_stream(['arr'], ['!miniTicker'], None, False, False, False, False) with stream_id=e9f9913fa80f-795a-78dd-f846-c1a2515a
+2023-08-17 20:22:43,402 [INFO    ] 5023 4403947008 manager: BinanceWebSocketApiManager._add_stream_to_stream_list(e9f9913fa80f-795a-78dd-f846-c1a2515a, ['arr'], ['!miniTicker'], None, False, None, False)
+2023-08-17 20:22:43,402 [INFO    ] 5023 123145593499648 sockets: BinanceWebSocketApiSocket.start_socket(e9f9913fa80f-795a-78dd-f846-c1a2515a, ['arr'], ['!miniTicker']) socket_id=2bd3e526-e2c2-4e23-847a-12dda5300c71 recent_socket_id=2bd3e526-e2c2-4e23-847a-12dda5300c71
+2023-08-17 20:22:43,403 [INFO    ] 5023 123145593499648 connection: BinanceWebSocketApiConnection.await._conn.__aenter__("e9f9913fa80f-795a-78dd-f846-c1a2515a, ['arr'], ['!miniTicker']") - No proxy used!
+2023-08-17 20:22:45,736 [INFO    ] 5023 123145627078656 _websocket_stream: WebSocket Unified V5 attempting connection...
+2023-08-17 20:22:46,291 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 4.44 kB/s at 2023-08-17, 17:22:46 UTC
+2023-08-17 20:22:46,450 [INFO    ] 5023 123145643868160 _logging: Websocket connected
+2023-08-17 20:22:46,450 [INFO    ] 5023 123145627078656 _websocket_stream: WebSocket Unified V5 connected
+2023-08-17 20:22:47,300 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 4.94 kB/s at 2023-08-17, 17:22:47 UTC
+2023-08-17 20:22:49,112 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 5.41 kB/s at 2023-08-17, 17:22:49 UTC
+2023-08-17 20:22:51,230 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 5.48 kB/s at 2023-08-17, 17:22:51 UTC
+2023-08-17 20:22:52,138 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 5.95 kB/s at 2023-08-17, 17:22:52 UTC
+2023-08-17 20:22:53,063 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 8.29 kB/s at 2023-08-17, 17:22:53 UTC
+2023-08-17 20:22:56,082 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 8.74 kB/s at 2023-08-17, 17:22:56 UTC
+2023-08-17 20:23:09,097 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 15.17 kB/s at 2023-08-17, 17:23:09 UTC
+2023-08-17 20:23:40,256 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 16.45 kB/s at 2023-08-17, 17:23:40 UTC
+2023-08-17 20:25:33,289 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 28.43 kB/s at 2023-08-17, 17:25:33 UTC
+2023-08-17 20:25:51,180 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 38.57 kB/s at 2023-08-17, 17:25:51 UTC
+2023-08-17 20:25:52,090 [INFO    ] 5023 123145559920640 manager: BinanceWebSocketApiManager._frequent_checks() - reached new `highest_receiving_speed` 45.13 kB/s at 2023-08-17, 17:25:52 UTC

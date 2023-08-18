@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Table</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.min.js" 
+    integrity="sha512-pq2q9u19+Ud8dVupv7T8NGisIc2hMXvGblfZGhOMMEtb1tr3NEChXGk7hnwy4gA0zmZ8elIDZSJ0tGmD9bjpew==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var socket = io();
+
+        socket.on("data_update", function(finally_dict) {
+            updateTable(finally_dict);
+        });
+
+        function updateTable(finally_dict) {
+            var table = document.getElementById("data-table");
+            table.innerHTML = "";
+
+            // Convert dictionary to an array for sorting
+            var dataArray = Object.entries(finally_dict);
+
+            // Sort the array based on the Spred value
+            dataArray.sort(function(a, b) {
+                var spredA = a[1].Spred;
+                var spredB = b[1].Spred;
+                return spredA - spredB;
+            });
+
+            for (var i = 0; i < dataArray.length; i++) {
+                var symbol = dataArray[i][0];
+                var info = dataArray[i][1];
+
+                var row = table.insertRow();
+                var symbolCell = row.insertCell();
+                var spredCell = row.insertCell();
+                var buyExchangeCell = row.insertCell();
+                var buyPriceCell = row.insertCell();
+                var sellExchangeCell = row.insertCell();
+                var sellPriceCell = row.insertCell();
+
+                symbolCell.innerHTML = symbol;
+                spredCell.innerHTML = info.Spred;
+                buyPriceCell.innerHTML = info.buy_exchange.price;
+                sellPriceCell.innerHTML = info.sell_exchange.price;
+
+                // Create link for Buy Exchange
+                var buyExchangeLink = document.createElement("a");
+                if (info.buy_exchange.exchange === "binance") {
+                    buyExchangeLink.href = "https://www.binance.com/ru/trade/" + symbol.replace("_", "") + "USDT";
+                } else if (info.buy_exchange.exchange === "mexc") {
+                    buyExchangeLink.href = "https://www.mexc.com/ru-RU/exchange/" + symbol.replace("_", "") + "USDT";
+                } else if (info.buy_exchange.exchange === "baybit") {
+                    buyExchangeLink.href = "https://www.bybit.com/uk-UA/trade/spot/" + symbol.replace("/", "") + "USDT";
+                } else if (info.buy_exchange.exchange === "kucoin") {
+                    buyExchangeLink.href = "https://www.kucoin.com/ru/trade/" + symbol.replace("-", "") + "USDT";
+                } else {
+                    buyExchangeLink.href = "https://www.google.com"; // Default link to Google
+                }
+                buyExchangeLink.textContent = info.buy_exchange.exchange;
+                buyExchangeCell.appendChild(buyExchangeLink);
+
+                // Create link for Sell Exchange
+                var sellExchangeLink = document.createElement("a");
+                if (info.sell_exchange.exchange === "binance") {
+                    sellExchangeLink.href = "https://www.binance.com/ru/trade/" + symbol.replace("_", "") + "USDT";
+                } else if (info.sell_exchange.exchange === "mexc") {
+                    sellExchangeLink.href = "https://www.mexc.com/ru-RU/exchange/" + symbol.replace("_", "") + "USDT";
+                } else if (info.sell_exchange.exchange === "baybit") {
+                    sellExchangeLink.href = "https://www.bybit.com/uk-UA/trade/spot/" + symbol.replace("/", "") + "USDT";
+                } else if (info.sell_exchange.exchange === "kucoin") {
+                    sellExchangeLink.href = "https://www.kucoin.com/ru/trade/" + symbol.replace("-", "") + "USDT";
+                } else {
+                    sellExchangeLink.href = "https://www.google.com"; // Default link to Google
+                }
+                sellExchangeLink.textContent = info.sell_exchange.exchange;
+                sellExchangeCell.appendChild(sellExchangeLink);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Data Table</h1>
+    <h2><button onclick="sortTable()">Sort by spread</button></h2>
+    <table id="data-table">
+        <tr>
+            <th>Symbol</th>
+            <th>Spread</th>
+            <th>Buy Exchange</th>
+            <th>Buy Price</th>
+            <th>Sell Exchange</th>
+            <th>Sell Price</th>
+        </tr>
+        {% for symbol, info in data.items() %}
+            <tr>
+                <td>{{ symbol }}</td>
+                <td>{{ info.Spred }}</td>
+                <td>{{ info.buy_exchange.exchange }}</td>
+                <td>{{ info.buy_exchange.price }}</td>
+                <td>{{ info.sell_exchange.exchange }}</td>
+                <td>{{ info.sell_exchange.price }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <script>
+        function sortTable() {
+            var table = document.getElementById("data-table");
+            var rows = Array.from(table.rows);
+
+            rows.sort(function(a, b) {
+                var spredA = parseFloat(a.cells[1].innerHTML);
+                var spredB = parseFloat(b.cells[1].innerHTML);
+                return spredA - spredB;
+            });
+
+            rows.forEach(function(row) {
+                table.appendChild(row);
+            });
+        }
+    </script>
+</body>
+</html>

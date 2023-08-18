@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Table</title>
+</head>
+<body>
+    <h1>Data Table</h1>
+    <table>
+        <tr>
+            <th>Symbol</th>
+            <th>Spread</th>
+            <th>Buy Exchange</th>
+            <th>Buy Price</th>
+            <th>Sell Exchange</th>
+            <th>Sell Price</th>
+        </tr>
+        {% for symbol, info in data.items() %}
+            <tr>
+                <td>{{ symbol }}</td>
+                <td>{{ info.Spred }}</td>
+                <td>{{ info.buy_exchange.exchange }}</td>
+                <td>{{ info.buy_exchange.price }}</td>
+                <td>{{ info.sell_exchange.exchange }}</td>
+                <td>{{ info.sell_exchange.price }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
